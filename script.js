@@ -14,7 +14,7 @@ window.addEventListener("scroll", function() {
   }
 });
 
-//* NAV BEFORE POPUP MESSAGE
+//* NAV BEFORE COOKIE MESSAGE
 
 const message = document.createElement("div");
 message.classList.add("cookie-msg");
@@ -29,9 +29,25 @@ nav.before(message);
 
 message.style.textAlign = "center";
 
+//* REMOVE COOKIE
+
+document.addEventListener("click", function(event) {
+  if (event.target.classList.contains("btn--close-cookie")) {
+    message.remove();
+  }
+});
+
 
 //!CATEGORY
 
+const categoryMain = [
+  {name: "Daily", image: "img/daily-shoes.jpeg"},
+  {name: "Running", image: "img/running_shoes.jpeg"},
+  {name: "Sneakers", image: "img/snk.webp"},
+  {name: "Fitness", image: "img/fitness.jpeg"},
+  {name: "Football", image: "img/f_shoes.jpeg"},
+  {name: "Daily", image: "img/b_shoes.jpeg"},
+];
 
 
 
