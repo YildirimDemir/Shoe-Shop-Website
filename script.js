@@ -3,13 +3,13 @@
 //* NAV STICKY
 
 const nav = document.querySelector("nav");
-const forStickyNav = document.querySelector(".category-content");
+const forStickyNav = document.querySelector(".sticky-nav-content");
 const initialCoord = forStickyNav.getClientRects();
 
 window.addEventListener("scroll", function() {
   if (window.scrollY > initialCoord[0].top) {
     nav.classList.add("nav-sticky");
-    nav.style.opacity = ".8"
+    nav.style.opacity = ".8";
     message.remove();
   } else {
     nav.classList.remove("nav-sticky");
