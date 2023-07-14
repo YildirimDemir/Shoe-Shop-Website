@@ -3,14 +3,17 @@
 //* NAV STICKY
 
 const nav = document.querySelector("nav");
-const forStickyNav = document.querySelector(".category");
+const forStickyNav = document.querySelector(".category-content");
 const initialCoord = forStickyNav.getClientRects();
 
 window.addEventListener("scroll", function() {
   if (window.scrollY > initialCoord[0].top) {
     nav.classList.add("nav-sticky");
+    nav.style.opacity = ".8"
+    message.remove();
   } else {
     nav.classList.remove("nav-sticky");
+    message.add();
   }
 });
 
@@ -31,29 +34,44 @@ message.style.textAlign = "center";
 
 //* REMOVE COOKIE
 
-document.addEventListener("click", function(event) {
-  if (event.target.classList.contains("btn--close-cookie")) {
+document.addEventListener("click", function(event){
+  if(event.target.classList.contains("btn--close-cookie")){
     message.remove();
   }
-});
-
+})
 
 //!CATEGORY
 
 const categoryMain = [
-  {name: "Daily", image: "img/daily-shoes.jpeg"},
-  {name: "Running", image: "img/running_shoes.jpeg"},
-  {name: "Sneakers", image: "img/snk.webp"},
-  {name: "Fitness", image: "img/fitness.jpeg"},
-  {name: "Football", image: "img/f_shoes.jpeg"},
-  {name: "Daily", image: "img/b_shoes.jpeg"},
+  { name: "Daily", image: "img/daily-shoes.jpeg", link: "daily.html" },
+  { name: "Running", image: "img/running_shoes.jpeg", link: "running.html" },
+  { name: "Sneakers", image: "img/snk.webp", link: "sneakers.html" },
+  { name: "Fitness", image: "img/fitness.jpeg", link: "fitness.html" },
+  { name: "Football", image: "img/f_shoes.jpeg", link: "football.html" },
+  { name: "Basketball", image: "img/b_shoes.jpeg", link: "basketball.html" },
 ];
+function uploadCategory() {
+  const categoryList = document.querySelector(".category-content");
 
+  for (let i = 0; i < categoryMain.length; i++) {
+    const categoryLink = document.createElement("a");
+    categoryLink.href = categoryMain[i].link;
+    categoryLink.style.textDecoration = "none"
 
+    const categoryDiv = document.createElement("div");
+    categoryDiv.classList.add("category-box");
+    categoryDiv.style.backgroundImage = `url(${categoryMain[i].image})`;
 
+    const categoryName = document.createElement("h3");
+    categoryName.textContent = categoryMain[i].name;
+    categoryDiv.appendChild(categoryName);
 
+    categoryLink.appendChild(categoryDiv);
+    categoryList.appendChild(categoryLink);
+  }
+}
 
-
+window.onload = uploadCategory;
 
 
 //! NEWSLATTER
@@ -90,3 +108,6 @@ const validateEmail = function () {
 btnshowModal.addEventListener("click", validateEmail);
 btncloseModal.addEventListener("click", closeModal);
 overlay.addEventListener("click", closeModal);
+
+
+//!
