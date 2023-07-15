@@ -40,6 +40,12 @@ document.addEventListener("click", function(event){
   }
 })
 
+//NAV RESPONSIVE
+
+
+
+
+
 //!CATEGORY
 
 const categoryMain = [
