@@ -42,6 +42,19 @@ document.addEventListener("click", function(event){
 
 //NAV RESPONSIVE
 
+// window.addEventListener('DOMContentLoaded', (event) => {
+//   const navOpenBtn = document.querySelector('.nav-hamburger-btn');
+//   const navCloseBtn = document.querySelector('.nav-close-btn');
+//   const respNav = document.querySelector('.nav-content');
+
+//   navOpenBtn.addEventListener('click', function() {
+//     respNav.style.right = '0';
+//   });
+
+//   navCloseBtn.addEventListener('click', function() {
+//     respNav.style.right = '-300px';
+//   });
+// });
 
 
 

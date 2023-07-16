@@ -136,6 +136,32 @@ nav .nav-logo {
 
   .nav-content{
     display: flex;
+    width: 72%;
+    justify-content: space-between;
+  }
+
+  .logo-resp{
+    display: none;
+  }
+  .nav-hamburger-btn{
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    border: 2px solid #000;
+    border-radius: 20px;
+    font-size: 1.3rem;
+    display: none;
+  }
+  .nav-close-btn{
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    border: 2px solid #000;
+    border-radius: 20px;
+    font-size: 1.3rem;
+    display: block;
+    margin-bottom: 30px;
+    display: none;
   }
 
 /* ===HEADER=== */
@@ -494,7 +520,196 @@ a{
 }
 
 
+/* ========== SIGN UP =========== */
+
+#header-sign-up{
+  background-image: url(img/nike_store_login.jpeg);
+}
+.sign-up-content{
+  width: 40%;
+  height: 60vh;
+  text-align: center;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.sign-up-content input{
+  margin: 20px 0px 20px 0px;
+}
+
+.sign-up-content span{
+  margin-top: 20px;
+}
+
+.sign-up-content a{
+  text-decoration: none;
+  color: #1437d1;
+}
+
+.sign-up-content .sign-up-btn{
+  margin-top: 20px;
+  width: 180px;
+  height: 40px;
+  border-radius: 20px;
+  border: 2px solid #555;
+  color: #555;
+  outline: none;
+  font-size: 1.2rem;
+  background: #fff;
+  transition: .2s;
+}
+.sign-up-content .sign-up-btn:hover{
+  color: #000;
+  border: 2px solid #000;
+}
+
+/* ========== SIGN IN =========== */
+
+#header-sign-in{
+  background-image: url(img/sign-in.jpeg);
+}
+.sign-in-content{
+  width: 40%;
+  height: 45vh;
+  text-align: center;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.sign-in-content input{
+  margin: 20px 0px 20px 0px;
+}
+
+.sign-in-content span{
+  margin-top: 20px;
+}
+
+.sign-in-content a{
+  text-decoration: none;
+  color: #1437d1;
+}
+
+.sign-in-content .sign-in-btn{
+  margin-top: 20px;
+  width: 180px;
+  height: 40px;
+  border-radius: 20px;
+  border: 2px solid #555;
+  color: #555;
+  outline: none;
+  font-size: 1.2rem;
+  background: #fff;
+  transition: .2s;
+}
+.sign-in-content .sign-in-btn:hover{
+  color: #000;
+  border: 2px solid #000;
+}
+
+
+/* ========== FORGOT PASSWORD =========== */
+
+.forgot-pass-content{
+  width: 40%;
+  height: 30vh;
+  text-align: center;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.forgot-pass-content .forgot-pass-btn{
+  margin-top: 40px;
+  width: 180px;
+  height: 40px;
+  border-radius: 20px;
+  border: 2px solid #555;
+  color: #555;
+  outline: none;
+  font-size: 1.2rem;
+  background: #fff;
+  transition: .2s;
+}
+.forgot-pass-content .forgot-pass-btn:hover{
+  color: #000;
+  border: 2px solid #000;
+}
+
+
+.forgot-pass-content input{
+  margin-top: 30px;
+}
+
+/* ========== RELEATED QUESTIONS=========== */
+
+#header-releated-questions{
+  background-image: url(img/releated-q.jpeg);
+}
+
+.releated-questions-content{
+  width: 80%;
+  margin:auto;
+  padding: 30px 0px 30px 0px;
+}
+.accordion-button:not(.collapsed) {
+  color: #000;
+  background-color:  white !important; 
+  box-shadow: none !important;
+}
+
+.accordion-button:focus{
+  box-shadow: none !important;
+}
 /* ========RESPONSIVE========= */
+
+@media(max-width:375px){
+  .sign-up-content .sign-up-btn{
+    width: 150px;
+    height: 40px;
+    font-size: .9rem;
+  }
+  .sign-up-content a{
+    font-size: .7rem;
+  }
+  .sign-up-content input{
+    font-size: 1rem;
+  }
+  .sign-up-content label{
+    font-size: 1rem;
+  }
+  .sign-in-content .sign-in-btn{
+    width: 150px;
+    height: 40px;
+    font-size: .9rem;
+  }
+  .sign-in-content a{
+    font-size: .7rem;
+  }
+  .sign-in-content input{
+    font-size: 1rem;
+  }
+  .sign-in-content label{
+    font-size: 1rem;
+  }
+
+  .forgot-pass-content .forgot-pass-btn{
+    width: 120px;
+    height: 40px;
+    font-size: .8rem;
+  }
+  .forgot-pass-content a{
+    font-size: .6rem;
+  }
+  .forgot-pass-content input{
+    font-size: .9rem;
+  }
+  .forgot-pass-content label{
+    font-size: .9rem;
+  }
+  
+}
 
 @media(max-width:576px){
   /* MAIN PAGE */
@@ -529,6 +744,10 @@ a{
 .contact-box p{
   font-size: .9rem;
 }
+.about-us-content .about-us-text{
+  font-size: .8rem;
+}
+
 
 }
 
@@ -548,6 +767,15 @@ a{
         color: #fff;
         font-size: .9rem;
     }
+    .sign-up-content {
+      width: 80%;
+    }
+    .sign-in-content {
+      width: 80%;
+    }
+    .forgot-pass-content {
+      width: 80%;
+    }
 }
 
 @media(max-width:992px){
@@ -566,23 +794,52 @@ a{
     height: 115vh;
     top: 0;
     bottom: 0;
-    right: 0;
+    right: -300px;
     background: #fff;
     display: flex;
     flex-direction: column;
+    padding-top: 30px;
+    align-items: center;
+    justify-content: start;
+    transition: .4s;
   }
-
-  .nav-content .nav-links ul{
+ 
+  .nav-links ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto 30px auto 0px;
     display: block;
+  }
+  .nav-links ul li a{
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 10px 15px
   }
   .nav-resp-class{
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 50px 0px 20px 0px;
-    padding-top: 60px;
+    margin: 50px 0px 50px 0px;
   }
+
+  .user-sign .user-sign-link{
+    width: 60px;
+    height: 40px;
+    font-size: 1.2rem;
+  }
+
+  .logo-resp{
+    display: block;
+  }
+  .nav-hamburger-btn{
+  display: block;
+  }
+  .nav-close-btn{
+    display: block;
+    }
 
 }
 
