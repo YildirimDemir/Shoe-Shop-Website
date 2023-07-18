@@ -1,0 +1,202 @@
+[
+    {
+        "name": "Nike Air Force 1 ",
+        "category": "Daily",
+        "color": "White",
+        "gender": "Men",
+        "price": 110,
+        "size": [40, 41, 42, 43, 44, 45, 46, 47],
+        "about": "The original basketball style dazzles. This model, which allows you to be comfortable on the field and look stylish off the field; It refreshes familiar features such as 1980s-inspired construction, bold details and eye-catching design.",
+        "image": "img/img-shoes/nike-daily-men-1.webp"
+    },
+    {
+        "name": "Nike Air Jordan 1",
+        "category": "Daily",
+        "color": ["White", "Blue"],
+        "gender": "Men",
+        "price": 130,
+        "size": [41, 42, 43, 44, 45, 46, 47],
+        "about": "Inspired by the original AJ1, the Air Jordan 1 Mid offers fans the opportunity to follow in his footsteps. The brand new color, highlighted by simple, classic materials, adds a modern twist to the classic design.",
+        "image": "img/img-shoes/nike-daily-men-2.webp"
+    },
+    {
+        "name": "Nike Court Royale 2",
+        "category": "Daily",
+        "color": "White",
+        "gender": "Women",
+        "price": 90,
+        "size": [35, 36, 37, 38, 39, 40, 41, 42],
+        "about": "The court icon of the 1970s is not going anywhere. We have minimized our impact on the environment by using recycled and synthetic leather materials instead of environmentally friendly leather in a trend-defying style.",
+        "image": "img/img-shoes/nike-daily-women-1.webp"
+    },
+    {
+        "name": "Nike Air Jordan 1",
+        "category": "Daily",
+        "color": "Red",
+        "gender": "Women",
+        "price": 130,
+        "size": [36, 37, 38, 39, 40, 41, 42, 43],
+        "about": "Classic colors meet premium craftsmanship in this silhouette, adding a new twist to your favorite regular-cut style. Inspired by the lotus flower growing in the mud (see the leaf embroidery on the upper), these shoes tell a story with their design. Sleek leather, an embroidered Swoosh logo and textured suede provide the ultimate in comfort and style.",
+        "image": "img/img-shoes/nike-daily-women-2.webp"
+    },
+    {
+        "name": "Nike Invincible 3",
+        "category": "Running",
+        "color": "Blue",
+        "gender": "Men",
+        "price": 150,
+        "size": [38, 39, 40,41, 42, 43, 44, 45, 46],
+        "about": "Providing support at every kilometer with its maximum cushioning, Invincible 3 offers the highest level of comfort so you can always have a firm footing. Very supportive and flexible to keep you running without getting tired, this style allows you to run wherever you want and get energized and ready for your next run.",
+        "image": "img/img-shoes/nike-running-men-1.jpeg"
+    },
+    {
+        "name": "Nike Pegasus Trail 4",
+        "category": "Running",
+        "color": "Green",
+        "gender": "Men",
+        "price": 140,
+        "size": [38, 39, 40,41, 42, 43, 44, 45, 46, 47],
+        "about": "The Nike Pegasus Trail 4 GORE-TEX is your ideal running companion on bad days. A waterproof GORE-TEX layer helps keep your feet dry, while the rubber-reduced outsole provides a smooth transition from road to terrain without impairing your stride.",
+        "image": "img/img-shoes/nike-running-men-2.jpeg"
+    },
+    {
+        "name": "Nike Vaporfly 3",
+        "category": "Running",
+        "color": "Pink",
+        "gender": "Women",
+        "price": 180,
+        "size": [35, 36, 37, 38, 39, 40, 41, 42, 43],
+        "about": "Catch if you can. Offering race-day speed to beat every distance, Nike Vaporfly 3 was developed for running enthusiasts who can't give up the excitement of speed. We've worked on the leader of the super shoes and specially tuned the bottom to help you try to break your personal record in 10K runs or run a marathon. It's ready for those who see speed as a pathway to longer runs and seemingly unattainable performances, including elite runners and race beginners.",
+        "image": "img/img-shoes/nike-running-women-1.webp"
+    },
+    {
+        "name": "Nike Zegama",
+        "category": "Running",
+        "color": "Black",
+        "gender": "Women",
+        "price": 130,
+        "size": [36, 37, 38, 39, 40, 41, 42],
+        "about": "Explore tough terrains from start to finish with the Nike Zegama. Developed to offer high grip and support, this style allows you to continue climbing unaffected by adverse conditions and break your personal record. It gives you confidence when you're off-road, whether you're on a difficult, rocky surface going uphill or downhill on slippery and dangerous ground.",
+        "image": "img/img-shoes/nike-running-women-2.webp"
+    },
+    {
+        "name": "Nike Dunk High Retro",
+        "category": "Sneakers",
+        "color": ["White", "Gray"],
+        "gender": "Men",
+        "price": 140,
+        "size": [38, 39, 40,41, 42, 43, 44, 45, 46, 47],
+        "about": "Get all the attention with this legendary sneaker. Originally produced for the basketball world, Dunk later became an icon in skateboarding culture. The Nike Dunk High Retro brings vintage basketball style back to the streets with a smooth-embossed leather blend and classic colors that fit easily into any style.",
+        "image": "img/img-shoes/nike-sneakers-men-1.webp"
+    },
+    {
+        "name": "Nike Air Jordan 1 Mid",
+        "category": "Sneakers",
+        "color": ["Black", "Red"],
+        "gender": "Men",
+        "price": 150,
+        "size": [39, 40,41, 42, 43, 44, 45, 46, 47, 48],
+        "about": "Inspired by the original AJ1, this low-cut design preserves the iconic style you love, while different colors and premium leather give it a unique identity.",
+        "image": "img/img-shoes/nike-sneakers-men-2.webp"
+    },
+    {
+        "name": "Nike Air Jordan 1 Zoom",
+        "category": "Sneakers",
+        "color": ["Blue", "Gray"],
+        "gender": "Women",
+        "price": 145,
+        "size": [36, 37, 38, 39, 40, 41, 42],
+        "about": "Soft suede and Jordan Brand's signature Formula 23 foam combine to deliver an AJ1 style that's extra luxurious and extra comfortable. With these shoes, you don't have to choose between style and comfort. Because you deserve both.",
+        "image": "img/img-shoes/nike-sneakers-women-1.webp"
+    },
+    {
+        "name": "Nike Court Vision Low",
+        "category": "Sneakers",
+        "color": "White",
+        "gender": "Women",
+        "price": 120,
+        "size": [35, 36, 37, 38, 39, 40, 41, 42],
+        "about": "The new Nike Court Vision Low combines the fast-breaking basketball style of the 1980s with today's fast-paced gaming culture. It features an upper inspired by classic basketball sneakers and a classic rubber cupsole found in some of the most iconic silhouettes of the past.",
+        "image": "img/img-shoes/nike-sneakers-women-2.webp"
+    },
+    {
+        "name": "Nike Zoom Metcon Turbo 2",
+        "category": "Fitness",
+        "color": "Green",
+        "gender": "Men",
+        "price": 160,
+        "size": [39, 40,41, 42, 43, 44, 45, 46, 47, 48],
+        "about": "The Nike Zoom Metcon Turbo 2 is as much adrenaline and speed as your daily workout. Style that combines support and responsiveness in a lightweight model; It helps you move fast during station work, high-intensity interval training on the treadmill, your cardio workout on the way home, or any other time. From the Zoom Air cushioning in the sole to the rope wrap in the forefoot, every detail has been scaled down to maximize functionality and durability while minimizing weight. Lighter and stronger materials have been developed for speed and strength.",
+        "image": "img/img-shoes/nike-fitness-men-1.webp"
+    },
+    {
+        "name": "Nike Free Metcon 5",
+        "category": "Fitness",
+        "color": "Blue",
+        "gender": "Men",
+        "price": 155,
+        "size": [39, 40,41, 42, 43, 44, 45, 46],
+        "about": "The Nike Free Metcon 5 helps you complete your workouts and reach your daily goals, using the last of your strength in the toughest moments. Complementing the elegance with the structure and the flexible forefoot with a supportive back, this model is ideal for justifying your cardio day or increasing your agility. The updated upper makes it easy to put on, with a specially developed collar for your ankle.",
+        "image": "img/img-shoes/nike-fitness-men-2.jpeg"
+    },
+    {
+        "name": "Nike Experience Run 11",
+        "category": "Fitness",
+        "color": "Black",
+        "gender": "Women",
+        "price": 110,
+        "size": [35, 36, 37, 38, 39, 40, 41],
+        "about": "Say hello to the style that will make every run feel comfortable and peaceful as it should be. The lightweight and simple design of the Nike Experience Run 11 is as good as it looks. You'll feel like you've been using it for years when you wear the shoe, which provides natural mobility by providing extraordinary support. In addition, style made from at least 20% by weight recycled materials supports our sustainability journey.",
+        "image": "img/img-shoes/nike-fitness-women-1.webp"
+    },
+    {
+        "name": "Nike Zoom SuperRep 4 ",
+        "category": "Fitness",
+        "color": "Pink",
+        "gender": "Women",
+        "price": 100,
+        "size": [35, 36, 37, 38, 39, 40],
+        "about": "Box jumping action that lets you feel the burn in the front of your thighs and focus on why you're training. Supersets that make you sweat until you're drenched. Struggle, important moments, growth and transformation are in your blood. Designed for bursts of power, heart-pounding pace changes and fast-paced workouts, these shoes will help you take your HIIT workout to new heights.",
+        "image": "img/img-shoes/nike-fitness-women-2.webp"
+    },
+    {
+        "name": "Nike Phantom Luna Elite",
+        "category": "Football",
+        "color": "Orange",
+        "gender": "Men",
+        "price": 220,
+        "size": [39, 40,41, 42, 43, 44, 45, 46],
+        "about": "Step into a new day and get all the attention. Eye-catching, bright and futuristic graphics resemble a sunrise with vibrant colors. It reflects the superior power of women's football that allows us to come together both on and off the field. Using information from female athletes, we designed a shoe every football player needs, with a traction pattern that will help you play quickly and with confidence. Designed for those aiming to perfect their performance, it helps you make precise turns while representing your country in the heat of the match.",
+        "image": "img/img-shoes/nike-football-1.webp"
+    },
+    {
+        "name": "Nike Mercurial Superfly 9 Elite",
+        "category": "Football",
+        "color": "Black",
+        "gender": "Men",
+        "price": 210,
+        "size": [38, 39, 40,41, 42, 43, 44, 45, 46],
+        "about": "Dominate the pitch the moment you step in with the stunning design of the Superfly 9 Elite FG. Specially produced for football, the Zoom Air unit and grippy texture provide exceptional touch, allowing you to perform at your best in the final moments that decide the fate of the match. Bring the points in critical moments with the momentum and pace you gain while feeling the extraordinary speed as you run on the field. Fast is in the Air.",
+        "image": "img/img-shoes/nike-football-2.webp"
+    },
+    {
+        "name": "Nike LeBron Witness 6",
+        "category": "Basketball",
+        "color": "Green",
+        "gender": "Men",
+        "price": 240,
+        "size": [39, 40,41, 42, 43, 44, 45, 46, 47, 48],
+        "about": "In this version of LeBron Witness, we used LeBron's favorite visible Max Air cushioning instead of Zoom Air to disperse impact and provide a responsive feel. The lightweight, reinforced mesh upper protects your foot at every point, from the mesh wrapping around the forefoot to the molded outer parts that secure the heel.",
+        "image": "img/img-shoes/nike-basketball-1.webp"
+    },
+    {
+        "name": "Nike Luka 1",
+        "category": "Basketball",
+        "color": "Red",
+        "gender": "Men",
+        "price": 235,
+        "size": [39, 40,41, 42, 43, 44, 45, 46, 47, 48],
+        "about": "The first shoe, named after Luka, was designed for the player who wears the number 77 on his jersey and was developed for all athletes who seek speed and efficiency. You will find everything you are looking for in this shoe. The first shoe to feature full-length Formula 23 foam, this model features an ultra-supportive construction designed for pull-back shots. Plus, whether you're playing indoor or outdoor, durable and lightweight Flight Wire cords provide a snug fit. The support you've been waiting for to go out on the field and score is here.",
+        "image": "img/img-shoes/nike-basketball-2.webp"
+    }
+]

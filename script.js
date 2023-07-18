@@ -10,12 +10,11 @@ window.addEventListener("scroll", function() {
   if (window.scrollY > initialCoord[0].top) {
     nav.classList.add("nav-sticky");
     nav.style.opacity = ".8";
-    message.remove();
   } else {
     nav.classList.remove("nav-sticky");
-    message.add();
   }
 });
+
 
 //* NAV BEFORE COOKIE MESSAGE
 
@@ -129,4 +128,4 @@ btncloseModal.addEventListener("click", closeModal);
 overlay.addEventListener("click", closeModal);
 
 
-//!
+//! PRODUCTS
