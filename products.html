@@ -60,12 +60,55 @@
    
     <section class="products-content">
         <div class="filter">
-            FİLTER
+          <form id="filter-form">
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender">
+                <option value="">All</option>
+                <option value="Men">Men</option>
+                <option value="Women">Women</option>
+            </select>
+    
+            <label for="category">Category:</label>
+            <select id="category" name="category">
+                <option value="">All</option>
+                <option value="Daily">Daily</option>
+                <option value="Running">Running</option>
+                <option value="Sneakers">Sneakers</option>
+                <option value="Fitness">Fitness</option>
+                <option value="Football">Football</option>
+                <option value="Basketball">Basketball</option>
+            </select>
+    
+            <label for="color">Color:</label>
+            <select id="color" name="color">
+                <option value="">All</option>
+                <option value="White">White</option>
+                <option value="Black">Black</option>
+                <option value="Blue">Blue</option>
+                <option value="Red">Red</option>
+                <option value="Green">Green</option>
+                <option value="Pink">Pink</option>
+                <option value="Gray">Gray</option>
+                <option value="Orange">Orange</option>
+            </select>
+    
+            <label for="price-range">Price Range:</label>
+            <select id="price-range" name="price-range">
+                <option value="">All</option>
+                <option value="0-100">0 - 100</option>
+                <option value="101-150">101 - 150</option>
+                <option value="151-200">151 - 200</option>
+                <option value="201-250">201 - 250</option>
+                <option value="251-300">251 - 300</option>
+                <option value="301-999">301+</option>
+            </select>
+        </form>
         </div>
         <div class="products">
-          
+          <!-- JS -->
         </div>
     </section>
+   
     
 
       <section class="footer">
@@ -116,6 +159,7 @@
         AOS.init();
     </script>
 <script src="script.js"></script>
+<script src="products.js"></script>
     
     <script>
       window.addEventListener('DOMContentLoaded', (event) => {

@@ -4,7 +4,7 @@
 
 const nav = document.querySelector("nav");
 const forStickyNav = document.querySelector(".sticky-nav-content");
-const initialCoord = forStickyNav.getClientRects();
+const  initialCoord = forStickyNav.getClientRects();
 
 window.addEventListener("scroll", function() {
   if (window.scrollY > initialCoord[0].top) {
@@ -129,3 +129,4 @@ overlay.addEventListener("click", closeModal);
 
 
 //! PRODUCTS
+

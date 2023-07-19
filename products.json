@@ -184,7 +184,7 @@
         "category": "Basketball",
         "color": "Green",
         "gender": "Men",
-        "price": 240,
+        "price": 245,
         "size": [39, 40,41, 42, 43, 44, 45, 46, 47, 48],
         "about": "In this version of LeBron Witness, we used LeBron's favorite visible Max Air cushioning instead of Zoom Air to disperse impact and provide a responsive feel. The lightweight, reinforced mesh upper protects your foot at every point, from the mesh wrapping around the forefoot to the molded outer parts that secure the heel.",
         "image": "img/img-shoes/nike-basketball-1.webp"
@@ -194,9 +194,19 @@
         "category": "Basketball",
         "color": "Red",
         "gender": "Men",
-        "price": 235,
+        "price": 265,
         "size": [39, 40,41, 42, 43, 44, 45, 46, 47, 48],
         "about": "The first shoe, named after Luka, was designed for the player who wears the number 77 on his jersey and was developed for all athletes who seek speed and efficiency. You will find everything you are looking for in this shoe. The first shoe to feature full-length Formula 23 foam, this model features an ultra-supportive construction designed for pull-back shots. Plus, whether you're playing indoor or outdoor, durable and lightweight Flight Wire cords provide a snug fit. The support you've been waiting for to go out on the field and score is here.",
         "image": "img/img-shoes/nike-basketball-2.webp"
+    },
+    {
+        "name": "Nike Lebron 20",
+        "category": "Basketball",
+        "color": "Red",
+        "gender": "Men",
+        "price": 265,
+        "size": [39, 40,41, 42, 43, 44, 45, 46, 47, 48],
+        "about": "Having spent nearly two decades in a career that exceeded expectations, LeBron James refused to settle for anything less than perfection, even as he set the standards for generations to come. The newest shoe to bear its name, the LeBron XX (or LeBron 20), is lighter, lower, and has a very fast build. Built to keep up with today's fast-paced style of play, this comfortable, supportive, low-cut and ultra-light style is unlike any LeBron design ever.",
+        "image": "img/img-shoes/nike-basketball-men-3.webp"
     }
 ]

@@ -390,6 +390,8 @@ a{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    padding-bottom: 20px;
+    background: #f4f4f4;
   }
   /* .footer::before{
     display: block;
@@ -404,7 +406,7 @@ a{
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    background: #fff;
+    background: #f4f4f4;
   }
   
   .footer_row .footer_col{
@@ -675,16 +677,90 @@ a{
 .products-content .filter{
   width: 100%;
   height: 10vh;
-  background: red;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.filter select{
+  font-size: 1rem;
+  text-align: center;
+  border-radius: 10px;
+  padding: 0px 5px 0px 5px;
+}
+
+.filter #filter-form{
+  background: #f0f0f0;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  width: 77%;
+  z-index: 50;
+  transition: .3s;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.filter-form-fixed{
+  top: 0;
+  position: fixed;
 }
 
 .products-content .products{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
+
+
+.product-card{
+  width: 400px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid black; */
+  margin: 20px 5px;
+  text-align: left;
+  padding: 10px;
+}
+
+.product-card img{
+  width: 80%;
+  height: 80%;
+  margin: auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  transition: .3s;
+  box-shadow: rgba(0, 0, 0, 0.351) 0px 2px 5px -1px, rgba(0, 0, 0, 0.442) 0px 1px 3px -1px;
+}
+.product-card img:hover{
+  transform: scale(1.05);
+}
+
+.product-card h3{
+  font-size: 1rem;
+  font-weight: 500;
+  margin-top: 10px;
+  width: 78%;
+  margin: auto;
+}
+
+.product-card .card-category{
+  font-size: .8rem;
+  width: 78%;
+  margin: auto;
+}
+
+.product-card .card-price{
+  font-size: 1rem;
+  font-weight: 500;
+  width: 78%;
+  margin: auto;
+}
 
 
 
