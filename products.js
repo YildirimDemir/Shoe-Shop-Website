@@ -4,12 +4,14 @@ fetch('products.json')
                 // Function to create a product card
                 const createProductCard = (product) => {
                     return `
+                    <a href="product-detail.html?id=${product.id}">
                     <div class="product-card">
                         <img src="${product.image}" alt="${product.name}">
                         <h3>${product.name}</h3>
                         <p class="card-category">${product.gender} ${product.category} Shoe</p>
                         <p class="card-price">Price: $${product.price}</p>
                     </div>
+                    </a>
                     `;
                 };
 
@@ -63,3 +65,21 @@ window.addEventListener("scroll", function(){
         filterFixed.classList.remove("filter-form-fixed")
     }
 })
+
+// //! PRODUCT DETAIL
+
+// fetch("/products.json")
+//     .then(res => res.json())
+//     .then(data => {
+//         let detail = new URLSearchParams(window.location.search);
+//         let comingId = detail.get("id");
+//         console.log(comingId)
+//         let detailProduct = data.filter(product => product.id == comingId);
+//         let goDetail = detailProduct.map(product =>{
+//             return`
+//             <div>${product.name}</div>`;
+//         }).join("");
+//         document.querySelector(".product-detail-content").innerHTML = goDetail;
+//         console.log(goDetail)
+//     })
+        

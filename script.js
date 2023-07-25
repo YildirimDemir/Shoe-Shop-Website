@@ -22,7 +22,7 @@ const message = document.createElement("div");
 message.classList.add("cookie-msg");
 
 setTimeout(function() {
-  message.innerHTML = 'Take advantage of 20% discount on purchases of €150 or more <button class="btn--close-cookie">X</button>';
+  message.innerHTML = 'Take advantage of 25% discount on purchases of €200 or more <button class="btn--close-cookie">X</button>';
 }, 2000);
 
 message.classList.add("cookie-msg");
@@ -126,7 +126,3 @@ const validateEmail = function () {
 btnshowModal.addEventListener("click", validateEmail);
 btncloseModal.addEventListener("click", closeModal);
 overlay.addEventListener("click", closeModal);
-
-
-//! PRODUCTS
-
