@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trend & Quality</title>
+    <link rel="shortcut icon" href="img/icon.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    
+ 
+  <nav>
+    <div class="nav-logo">
+      <a href="index.html">
+        <img src="img/t&q-logo.png" alt="T&Q">
+      </a>
+    </div>
+    <div class="nav-content">
+
+      
+      <button class="nav-close-btn">
+        <i class="fa-solid fa-x" style="color: #000000;"></i>
+      </button>
+  
+
+      <div class="nav-logo logo-resp">
+        <a href="index.html">
+          <img src="img/t&q-logo.png" alt="T&Q">
+        </a>
+      </div>
+
+    <div class="nav-links nav-resp-class">
+      <ul>
+        <li class="nav-link"><a href="index.html">Home</a></li>
+        <li class="nav-link"><a href="products.html">Products</a></li>
+        <li class="nav-link"><a href="contact.html">Contact</a></li>
+        <li class="nav-link"><a href="about.html">About</a></li>
+      </ul>
+    </div>
+      <div class="search-container nav-resp-class">
+        <input id="search-input" type="text" placeholder="Search">
+        <button id="search-button"><i class="fa-solid fa-magnifying-glass" style="color: #000000;"></i></button>
+      </div>
+      <div class="user-sign nav-resp-class">
+        <span class="sign-in user-sign-link"><a href="signin.html"><i class="fa-solid fa-user" style="color: #000000;"></i></a></span>
+        <span class="sign-up user-sign-link"><a href="signup.html"><i class="fa-solid fa-user-plus"style="color: #000000;"></i></a></span>
+      </div>
+    </div>
+    <button class="nav-hamburger-btn">
+      <i class="fa-solid fa-bars" style="color: #000000;"></i>
+    </button>
+    </nav>
+
+    
+
+    <div class="product-detail-content">
+      <!-- Product details will be displayed here -->
+  </div>
+
+  
+      
+
+      <section class="footer">
+        <div class="footer_row">
+            <div class="footer_col">
+                <h3>Company</h3>
+                <ul>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Categories</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </div>
+            <div class="footer_col">
+                <h3>Related Questions</h3>
+                <ul>
+                    <li><a href="releatedquestions.html">Cargo</a></li>
+                    <li><a href="releatedquestions.html">Quality</a></li>
+                    <li><a href="releatedquestions.html">Suppliers</a></li>
+                    <li><a href="releatedquestions.html">Returns</a></li>
+                </ul>
+            </div>
+            <div class="footer_col">
+                <h3>Trend Categories</h3>
+                <ul>
+                    <li><a href="#">Daily</a></li>
+                    <li><a href="#">Sneakers </a></li>
+                    <li><a href="#">Running</a></li>
+                    <li><a href="#">Basketball</a></li>
+                </ul>
+            </div>
+            <div class="footer_col social_media_icons">
+                <h3>Follow Us</h3>
+                <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="linkedin"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </section>
+
+
+      <script src="https://kit.fontawesome.com/f9227848b8.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <script src="detail.js"></script>
+    <!-- <script src="products.js"></script> -->
+
+    
+    <script>
+      window.addEventListener('DOMContentLoaded', (event) => {
+        const navOpenBtn = document.querySelector('.nav-hamburger-btn');
+        const navCloseBtn = document.querySelector('.nav-close-btn');
+        const respNav = document.querySelector('.nav-content');
+    
+        navOpenBtn.addEventListener('click', function() {
+          respNav.style.right = '0';
+        });
+    
+        navCloseBtn.addEventListener('click', function() {
+          respNav.style.right = '-300px';
+        });
+      });
+    </script>
+</body>
+</html>
